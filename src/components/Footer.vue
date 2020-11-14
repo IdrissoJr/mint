@@ -1,7 +1,5 @@
 <template>
-  <footer
-    class="bg-black text-white flex items-center justify-between px-5 py-3"
-  >
+  <footer class="text-white flex items-center justify-between px-5 py-3">
     <div class="flex justify-left items-center">
       <img class="h-9" src="../assets/logo-white.svg" alt="logo img" />
       <!-- ❤️ -->
@@ -25,3 +23,9 @@ export default {
   name: "Footer",
 };
 </script>
+
+<style scoped>
+footer {
+  background-color: #1e1e1e;
+}
+</style>

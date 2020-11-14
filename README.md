@@ -1,4 +1,8 @@
 # mint
+# Live preview: https://mint-vue.web.app/
+
+I redesigned this template using vuejs, thanks guys you did great jobs
+https://www.graphberry.com/products/preview/mint-minimal-portfolio-html-template
 
 ## Project setup
 ```

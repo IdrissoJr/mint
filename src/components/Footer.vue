@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="bg-gray-900 text-white flex items-center justify-between px-5 py-3"
+    class="bg-black text-white flex items-center justify-between px-5 py-3"
   >
     <div class="flex justify-left items-center">
       <img class="h-9" src="../assets/logo-white.svg" alt="logo img" />

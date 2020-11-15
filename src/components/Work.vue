@@ -295,11 +295,19 @@ export default {
   mounted() {
     setTimeout(function() {
       var msnry = new Masonry("#previews-container", {
-        // options
         itemSelector: ".work-preview",
       });
       msnry.reloadItems();
-    }, 100);
+    }, 700);
+
+    setTimeout(function() {
+      if (document.getElementById("previews-container").offsetHeight < 100) {
+        var msnry = new Masonry("#previews-container", {
+          itemSelector: ".work-preview",
+        });
+        msnry.reloadItems();
+      }
+    }, 5000);
   },
 };
 </script>

@@ -60,7 +60,7 @@ export default {
             document
               .getElementById("links-container")
               .querySelectorAll("a")
-              [i].classList.remove("text-yellow-400");
+              [i].classList.remove("text-yellow-400", "clicked");
           }
         }
       } else if (currentScroll > blogOffset && currentScroll < contactOffset) {

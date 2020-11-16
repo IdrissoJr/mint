@@ -63,19 +63,21 @@
         v-for="(preview, index) in previews"
         :key="index"
       >
-        <img
-          :src="require('../assets/' + preview.img + '.png')"
-          alt="Preview"
-          class="w-full"
-        />
-        <div class="hover-preview">
-          <div class="h-full flex flex-col justify-center items-center">
-            <h3 class="text-2xl font-bold uppercase">
-              {{ preview.name }}
-            </h3>
-            <p class="text-base uppercase">
-              {{ preview.cat }}
-            </p>
+        <div class="relative">
+          <img
+            :src="require('../assets/' + preview.img + '.png')"
+            alt="Preview"
+            class="w-full"
+          />
+          <div class="hover-preview">
+            <div class="h-full flex flex-col justify-center items-center">
+              <h3 class="text-2xl font-bold uppercase">
+                {{ preview.name }}
+              </h3>
+              <p class="text-base uppercase">
+                {{ preview.cat }}
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -323,7 +325,6 @@ export default {
 
 #work .work-preview {
   cursor: pointer;
-  position: relative;
   &:hover .hover-preview {
     opacity: 1;
   }
@@ -333,8 +334,8 @@ export default {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0.5rem;
-  right: 0.5rem;
+  left: 0;
+  right: 0;
   background-color: rgba(246, 224, 94, 0.9);
   opacity: 0;
   transition: 0.3s ease-in-out;

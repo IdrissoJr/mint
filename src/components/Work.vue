@@ -35,7 +35,7 @@
           class="uppercase text-sm z-20 relative"
           @click="dropdownOpen = !dropdownOpen"
         >
-          {{ blogNewest ? "Newest" : "Oldest" }} First &#11167;
+          {{ blogNewest ? "Newest" : "Oldest" }} First &#8675;
         </button>
         <button
           v-if="dropdownOpen"

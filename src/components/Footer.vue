@@ -1,7 +1,7 @@
 <template>
   <footer class="text-white flex items-center justify-between px-5 py-3">
     <div class="flex justify-left items-center">
-      <img class="h-9" src="../assets/logo-white.svg" alt="logo img" />
+      <img class="h-8 md:h-12" src="../assets/logo-white.svg" alt="logo img" />
       <!-- ❤️ -->
       <p class="ml-3">© 2020 Mint - Made with &#128525; by Disso</p>
     </div>

@@ -7,7 +7,7 @@
         <img
           src="../assets/logo.svg"
           @click="$emit('scroll-top')"
-          class="h-9 cursor-pointer"
+          class="h-8 md:h-12 cursor-pointer"
           alt="logo img"
         />
       </div>

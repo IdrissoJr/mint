@@ -39,25 +39,25 @@
     >
       <a
         href="#work"
-        class="block hover:text-yellow-400 hover:bg-gray-800 sm:hover:bg-transparent px-2 sm:px-5 py-1"
+        class="block hover:text-yellow-400 px-2 sm:px-5 py-1"
         @click.prevent="tabActive"
         >Work</a
       >
       <a
         href="#about"
-        class="block hover:text-yellow-400 hover:bg-gray-800 sm:hover:bg-transparent px-2 sm:ml-4 sm:px-5 py-1 mt-1 sm:mt-0"
+        class="block hover:text-yellow-400 px-2 sm:ml-4 sm:px-5 py-1 mt-1 sm:mt-0"
         @click.prevent="tabActive"
         >About</a
       >
       <a
         href="#blog"
-        class="block hover:text-yellow-400 hover:bg-gray-800 sm:hover:bg-transparent px-2 sm:ml-4 sm:px-5 py-1 mt-1 sm:mt-0"
+        class="block hover:text-yellow-400 px-2 sm:ml-4 sm:px-5 py-1 mt-1 sm:mt-0"
         @click.prevent="tabActive"
         >Blog</a
       >
       <a
         href="#contact"
-        class="block hover:text-yellow-400 hover:bg-gray-800 sm:hover:bg-transparent px-2 sm:ml-4 sm:px-5 py-1 mt-1 sm:mt-0"
+        class="block hover:text-yellow-400 px-2 sm:ml-4 sm:px-5 py-1 mt-1 sm:mt-0"
         @click.prevent="tabActive"
         >Contact</a
       >
